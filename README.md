@@ -20,10 +20,10 @@ GreenDen is a responsive and modern website project for a fictional online plant
 * Responsive Web Design principles
 
 🚀 Getting Started
-To view the project:
+To view the project: https://jegadesh2701.github.io/Greenden_tailwind/
 
 Clone the repository
-git clone https://github.com/yourusername/greenden.git
+https://github.com/Jegadesh2701/Greenden_tailwind
 
 📌 Note
 This project is for educational and portfolio purposes only. Feel free to customize or expand it for your own use.
