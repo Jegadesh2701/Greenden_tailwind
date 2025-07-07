@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+       <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+      <!-- Responsive Navbar -->
+
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">GREENDEN</h1>
+
+        <!-- Hamburger Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <!-- Nav Links -->
+        <ul class="hidden md:flex gap-5 text-gray-600">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="product.html">Products</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+     <!--Search bar-->
+    <section class="text-center">
+
+        <h1 class="text-2xl font-bold ">Our Products</h1>
+        
+        <input type="text" placeholder="Search for a Product..."  class="border border-black rounded-2xl p-2 m-3" style="width: 80%;">
+        
+    </section>
+
+    <!--Products-->
+
+    <section class="p-4 text-center">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5 p-50">
+            <div>
+                <img src="./Images/F5.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Secret Pot</h1>
+                <p>$120</p>
+            </div>
+
+            <div>
+                <img src="./Images/F6.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Exotic pot</h1>
+                <p>$135</p>
+            </div>
+
+            <div>
+                <img src="./Images/F7.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Natural pot</h1>
+                <p>$193</p>
+            </div>
+
+            <div>
+                <img src="./Images/F8.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Exotic pot</h1>
+                <p>$45</p>
+            </div>
+
+            <div>
+                <img src="./Images/F9.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Beautified pot</h1>
+                <p>$55</p>
+            </div>
+
+            <div>
+                <img src="./Images/F10.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Rose pot</h1>
+                <p>$87</p>
+            </div>
+
+            <div>
+                <img src="./Images/F11.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Sunflower pot</h1>
+                <p>$90</p>
+            </div>
+
+            <div>
+                <img src="./Images/F12.png" alt="picture" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black p-1 rounded-2xl">
+                <h1>Supernatural pot</h1>
+                <p>$121</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+<section class="bg-green-100 p-10 flex flex-col gap-5">
+    <h1 class="text-4xl font-bold">GreenDen</h1>
+    <p>The Standard Flowers nurtured Is Imported and Exported Since the 1700s</p>
+<p>@ 2021 Greenden.com</p>
+</section>
+</body>
+
+</html>
+    
